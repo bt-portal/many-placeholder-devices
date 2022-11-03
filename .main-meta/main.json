@@ -1,0 +1,48 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.hex.project",
+	"content": {
+		"metaDataVersion": "1.0.0",
+		"name": "com.microchip.mcu32.mplabx.project.many.implicit.placeholders",
+		"version": "4.6.6",
+		"displayName": "Test Hex Project - BLE Sensor App - EA71C53A",
+		"shortDescription": "BLE Sensor App",
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "placeholder-device",
+				"versionRange": "1.0.0"
+			}
+		},
+        "board": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.board",
+				"name": "WBZ451_CURIOSITY_BOARD",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"keywords": [
+			"BLE",
+            "wireless"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			},
+			"hexFileNamePath": "./../../precompiled_hex/ble_sensor_app.X.production.hex"
+		}
+	}
+}
